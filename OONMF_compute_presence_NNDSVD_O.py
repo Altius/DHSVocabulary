@@ -31,4 +31,4 @@ a.performNMF(data=A, randomseed=seed, theinit='nndsvd')
 a.writeNMF(Basis_foutname= today+'NC'+str(Nc)+'_NNDSVD_Basis.npy', Mixture_foutname=today+'NC'+str(Nc)+'_NNDSVD_Mixture.npy')
 
 #write the output matrices into tab separated files
-a.writeNMF_CSV(Basis_foutname= today+'NC'+str(Nc)+'_NNDSVD_Basis.tsv', Mixture_foutname=today+'NC'+str(Nc)+'_NNDSVD_Mixture.tsv')
+#a.writeNMF_CSV(Basis_foutname= today+'NC'+str(Nc)+'_NNDSVD_Basis.tsv', Mixture_foutname=today+'NC'+str(Nc)+'_NNDSVD_Mixture.tsv')
