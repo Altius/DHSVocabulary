@@ -9,9 +9,9 @@ today  = get_today()
 #presence absence matrix for 733 ENCODE samples formatted in a specific way
 def acquire_data():
 	print('starting read at ', mytime(), flush=True)
-	A = pd.read_table('matrix_bin_all_733samples_WM20180608.txt', header=None)
+	A = pd.read_table('dat_bin_FDR01_hg38.txt.gz', header=None)
 	print('finished read at ', mytime(), flush=True)
-	return A.drop([A.columns[0]], axis=1).values.T
+	return A.values.T
 	
 A = acquire_data()
 
